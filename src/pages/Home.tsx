@@ -11,10 +11,10 @@ const fetcher = (url: string) => fetch(url).then(res => res.json());
 
 const Home = () => {
 	const [copied, setCopied] = useState(false);
-	const email = 'code.niladri@gmail.com';
-	const whatsappNumber = '+916296554939';
+	const email = 'rohanhandore021@gmail.com';
+	const whatsappNumber = '+918830949311';
 
-	const { data: githubData } = useSWR('https://api.github.com/users/niladri-1', fetcher);
+	const { data: githubData } = useSWR('https://api.github.com/users/RohanHandore', fetcher);
 	function formatRepoCount(count: number): string {
 		if (count < 5) return count.toString();
 		return `${Math.floor(count / 5) * 5}+`;
@@ -33,7 +33,7 @@ const Home = () => {
 	};
 
 	const handleEmailClick = (e: React.MouseEvent) => {
-		if (window.innerWidth <= 640) { // sm breakpoint
+		if (window.innerWidth <= 640) {
 			window.location.href = `mailto:${email}`;
 			e.preventDefault();
 		} else {
@@ -50,7 +50,7 @@ const Home = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
 				>
-					Niladri Chatterjee
+					Rohan Handore
 				</motion.h1>
 				<motion.h1
 					className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
@@ -58,7 +58,7 @@ const Home = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
 				>
-					I design & code for web
+					Web Developer | Software Engineer | DevOps Engineer
 				</motion.h1>
 
 				<motion.p
@@ -67,7 +67,7 @@ const Home = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8, delay: 0.2 }}
 				>
-					Software Developer specializing in Full Stack Development with expertise in Next.js, Node.js and modern Web Technologies.
+					Hard-working developer with a flair for creating elegant solutions. Passionate about software architecture, automation, and design that actually works. 
 				</motion.p>
 
 				<motion.div
@@ -78,7 +78,7 @@ const Home = () => {
 				>
 					<div className="flex justify-center space-x-3 sm:space-x-4">
 						<a
-							href="/files/cv_pdf/Niladri_Chatterjee(CV).pdf"
+							href="/files/cv_pdf/Rohan_Handore_CV.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="px-4 sm:px-6 py-2.5 sm:py-3 bg-white text-black rounded-full text-sm sm:text-base font-medium hover:bg-gray-100 transition-colors flex items-center gap-2"
@@ -123,7 +123,7 @@ const Home = () => {
 					transition={{ duration: 0.8, delay: 0.6 }}
 				>
 					<motion.a
-						href="https://github.com/niladri-1"
+						href="https://github.com/RohanHandore"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="flex flex-col items-center group w-full"
@@ -144,7 +144,7 @@ const Home = () => {
 					</motion.a>
 
 					<motion.a
-						href="https://linkedin.com/in/niladri1"
+						href="https://linkedin.com/in/rohan-handore-4786b3233"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="flex flex-col items-center group w-full"
