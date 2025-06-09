@@ -8,15 +8,15 @@ import Image from 'next/image';
 const Education = () => {
 	const educationData = [
 		{
-			school: "Bengal College of Engineering and Technology",
-			location: "Durgapur, WB, India",
-			duration: "July 2020 - June 2024",
-			degree: "B.Tech (Computer Science and Engineering)",
-			grade: "CGPA: 8.48 (80%)",
+			school: "Griffith College",
+			location: "Dublin, Ireland",
+			duration: "2024 - 2025",
+			degree: "MSc in Big Data Management and Analytics",
+			grade: "CGPA: Pursuing",
 			image: "/education/college_img.jpg",
-			resultUrl: "/files/education_pdf/B Tech.pdf",
+			resultUrl: "/files/education_pdf/griffith_transcript.pdf",
 			coursework: [
-				"DSA",
+				"Big Data Technologies",
 				"OOPs",
 				"DBMS",
 				"AI",
@@ -24,24 +24,27 @@ const Education = () => {
 				"OS",
 				"Networking",
 			],
-			description: "During my time at BCET, I have built a strong foundation in computer science, focusing on software development, problem-solving, and real-world applications. Engaging in hands-on projects, internships, and coding challenges has helped me enhance my technical and analytical skills. This experience prepares me for a future in software development, equipping me with the ability to create scalable and efficient solutions."
+			description:
+				"Currently pursuing a Master's in Big Data Management and Analytics with a strong focus on data-driven systems, cloud-based computing, and modern machine learning technologies. Developing a research thesis on optimizing latency in IoT through edge computing."
 		},
 		{
-			school: "Birsingha Bhagabati Vidyalaya",
-			location: "Medinipur, WB, India",
-			duration: "June 2018 - July 2019",
-			degree: "Higher Secondary (WBSC)",
-			grade: "Percentage: 79%",
+			school: "Institute of Science Poona's College of Computer Sciences",
+			location: "Pune, Maharashtra, India",
+			duration: "2020 - 2023",
+			degree: "BSc in Computer Science",
+			grade: "CGPA: 7.94 / 10",
 			image: "/education/school_img.jpg",
-			resultUrl: "/files/education_pdf/HS MARK SHEET.pdf",
+			resultUrl: "/files/education_pdf/poona_degree.pdf",
 			subjects: [
-				"Physics",
-				"Chemistry",
-				"Mathematics",
-				"Biology",
-				"Computer Science"
+				"Java Programming",
+				"Data Structures",
+				"Operating Systems",
+				"Database Management Systems",
+				"Python",
+				"Software Engineering"
 			],
-			description: "My higher secondary education laid the foundation for my technical journey, strengthening my analytical thinking and problem-solving abilities. The strong emphasis on mathematics and computer science has been instrumental in shaping my passion for software development, enabling me to approach complex technical challenges with confidence."
+			description:
+				"Completed Bachelor's in Computer Science with a foundation in core computing concepts, Java development, and real-world software projects. Focused on backend architecture, automation, and application design principles."
 		}
 	];
 
