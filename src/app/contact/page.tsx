@@ -2,8 +2,8 @@ import Contact from '@/pages/Contact';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Contact - Niladri Chatterjee',
-	description: 'Get in touch with Niladri Chatterjee, a Software Developer specializing in full-stack development.',
+	title: 'Contact - Rohan Handore',
+	description: 'Get in touch with Rohan Handore, a Web Designer, Developer, and DevOps Engineer specializing in JavaScript, Java, Python, and cloud computing.',
 };
 
 export default function ContactPage() {

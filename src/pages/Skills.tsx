@@ -18,59 +18,59 @@ const skills = [
 		category: 'Programming Languages',
 		icon: <Code2 className="w-6 h-6" />,
 		items: [
-			{ name: 'C++', icon: <CppLogo /> },
-			{ name: 'Python', icon: <PythonLogo /> },
 			{ name: 'JavaScript', icon: <JavaScriptLogo /> },
-			{ name: 'TypeScript', icon: <TypeScriptLogo /> }
+			{ name: 'Java', icon: <CppLogo /> },
+			{ name: 'Python', icon: <PythonLogo /> },
+			{ name: 'C/C++', icon: <CppLogo /> }
 		]
 	},
 	{
-		category: 'Front-End Development',
+		category: 'Web Development',
 		icon: <Layout className="w-6 h-6" />,
 		items: [
 			{ name: 'HTML5', icon: <HTML5Logo /> },
 			{ name: 'CSS3', icon: <CSSLogo /> },
-			{ name: 'Tailwind', icon: <TailwindLogo /> },
-			{ name: 'ShadCN', icon: <ShadCNLogo /> }
+			{ name: 'React.js', icon: <ReactLogo /> },
+			{ name: 'Node.js', icon: <NodeLogo /> }
 		]
 	},
 	{
-		category: 'Back-End Development',
+		category: 'Frameworks & Libraries',
 		icon: <Server className="w-6 h-6" />,
 		items: [
-			{ name: 'React.js', icon: <ReactLogo /> },
-			{ name: 'Node.js', icon: <NodeLogo /> },
-			{ name: 'Next.js', icon: <NextjsLogo /> },
-			{ name: 'TypeScript', icon: <TypeScriptLogo /> }
+			{ name: 'Express.js', icon: <NodeLogo /> },
+			{ name: 'Bootstrap', icon: <TailwindLogo /> },
+			{ name: 'Pandas', icon: <PythonLogo /> },
+			{ name: 'MVC', icon: <Code2 className="w-4 h-4" /> }
 		]
 	},
 	{
-		category: 'Databases & Cloud Storage',
+		category: 'Cloud & DevOps',
+		icon: <Cloud className="w-6 h-6" />,
+		items: [
+			{ name: 'AWS', icon: <Cloud className="w-4 h-4" /> },
+			{ name: 'Google Cloud', icon: <Cloud className="w-4 h-4" /> },
+			{ name: 'Docker', icon: <Cloud className="w-4 h-4" /> },
+			{ name: 'CI/CD', icon: <Code2 className="w-4 h-4" /> }
+		]
+	},
+	{
+		category: 'Databases',
 		icon: <Database className="w-6 h-6" />,
 		items: [
-			{ name: 'MySQL', icon: <MySQLLogo /> },
 			{ name: 'MongoDB', icon: <MongoDBLogo /> },
-			{ name: 'Cloudinary', icon: <Cloud className="w-4 h-4" /> },
-			{ name: 'NoSQL', icon: <Database className="w-4 h-4" /> }
-		]
-	},
-	{
-		category: 'Version Control & DevOps',
-		icon: <GitLogo />,
-		items: [
-			{ name: 'Git', icon: <GitLogo /> },
-			{ name: 'GitHub', icon: <GitLogo /> },
-			{ name: 'Vercel', icon: <VercelLogo /> },
-			{ name: 'CI/CD', icon: <Code2 /> }
+			{ name: 'SQL', icon: <MySQLLogo /> },
+			{ name: 'NoSQL', icon: <Database className="w-4 h-4" /> },
+			{ name: 'Firestore', icon: <Database className="w-4 h-4" /> }
 		]
 	},
 	{
 		category: 'Tools & Platforms',
 		icon: <Wrench className="w-6 h-6" />,
 		items: [
+			{ name: 'Git', icon: <GitLogo /> },
+			{ name: 'GitHub', icon: <GitLogo /> },
 			{ name: 'VS Code', icon: <VSCodeLogo /> },
-			{ name: 'Workbench', icon: <MySQLLogo /> },
-			{ name: 'Compass', icon: <MongoDBLogo /> },
 			{ name: 'VirtualBox', icon: <VirtualBoxLogo /> }
 		]
 	},
@@ -79,9 +79,9 @@ const skills = [
 		icon: <Terminal className="w-6 h-6" />,
 		items: [
 			{ name: 'Windows', icon: <Terminal className="w-4 h-4" /> },
-			{ name: 'Ubuntu', icon: <Terminal className="w-4 h-4" /> },
 			{ name: 'Linux', icon: <Terminal className="w-4 h-4" /> },
-			{ name: 'Parrot OS', icon: <Terminal className="w-4 h-4" /> }
+			{ name: 'Ubuntu', icon: <Terminal className="w-4 h-4" /> },
+			{ name: 'Kali Linux', icon: <Terminal className="w-4 h-4" /> }
 		]
 	},
 	{
@@ -89,9 +89,9 @@ const skills = [
 		icon: <Brain className="w-6 h-6" />,
 		items: [
 			{ name: 'Teamwork', icon: <Users className="w-4 h-4" /> },
-			{ name: 'Troubleshooting', icon: <Wrench className="w-4 h-4" /> },
-			{ name: 'Progressive', icon: <Lightbulb className="w-4 h-4" /> },
-			{ name: 'Communication', icon: <MessageSquare className="w-4 h-4" /> }
+			{ name: 'Problem Solving', icon: <Wrench className="w-4 h-4" /> },
+			{ name: 'Communication', icon: <MessageSquare className="w-4 h-4" /> },
+			{ name: 'Adaptability', icon: <Lightbulb className="w-4 h-4" /> }
 		]
 	}
 ];

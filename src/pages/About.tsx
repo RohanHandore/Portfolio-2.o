@@ -8,28 +8,28 @@ const About = () => {
 	const achievements = [
 		{
 			icon: <Code2 className="w-6 h-6" />,
-			title: "10+ Projects",
-			description: "Completed full-stack web applications"
+			title: "6+ Projects",
+			description: "Full-stack applications & trading systems"
 		},
 		{
 			icon: <Briefcase className="w-6 h-6" />,
-			title: "3+ Internships",
-			description: "Professional work experience"
+			title: "2+ Years Experience",
+			description: "Software Development Engineer"
 		},
 		{
 			icon: <GraduationCap className="w-6 h-6" />,
-			title: "8.48 CGPA",
-			description: "Academic excellence"
+			title: "7.94 CGPA",
+			description: "BSc Computer Science"
 		}
 	];
 
 	const interests = [
 		"Web Development",
-		"UI/UX Design",
+		"DevOps Engineering",
 		"Cloud Computing",
-		"DevOps",
-		"Open Source",
-		"Artificial Intelligence"
+		"Algorithmic Trading",
+		"Big Data Analytics",
+		"Software Architecture"
 	];
 
 	return (
@@ -45,7 +45,7 @@ const About = () => {
 					<div className="aspect-square overflow-hidden rounded-2xl">
 						<img
 							src="/profile/profile.jpg"
-							alt="Niladri Chatterjee"
+							alt="Rohan Handore"
 							className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
 						/>
 					</div>
@@ -54,13 +54,13 @@ const About = () => {
 				<ScrollAnimation className="space-y-6">
 					<div className="space-y-4">
 						<p className="text-gray-300 leading-relaxed">
-							Hi! I'm a passionate full-stack developer with expertise in building modern web applications. My journey in tech started during my college years, where I discovered my love for creating innovative solutions through code.
+							Hi! I'm Rohan, a passionate Web Designer, Developer, and DevOps Engineer with expertise in building modern web applications and trading systems. My journey in tech started during my college years, where I discovered my love for creating innovative solutions through code.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Currently pursuing my B.Tech in Computer Science, I've maintained a strong academic record while actively engaging in real-world projects and internships. This blend of theoretical knowledge and practical experience has shaped my approach to problem-solving and software development.
+							Currently pursuing my Masters in Big Data Management and Analytics at Griffith College, Ireland, I've maintained a strong academic record while actively engaging in real-world projects and professional work experience. This blend of theoretical knowledge and practical experience has shaped my approach to problem-solving and software development.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							I specialize in React, Node.js, and modern web technologies, with a keen interest in creating performant and user-friendly applications. My experience includes working with various startups and contributing to open-source projects.
+							I specialize in JavaScript, Java, Python, and modern web technologies, with a keen interest in creating performant applications, algorithmic trading systems, and cloud-based solutions. My experience includes working as a Software Development Engineer and developing production-level applications.
 						</p>
 					</div>
 
@@ -68,7 +68,7 @@ const About = () => {
 						<div className="pt-4">
 							<h3 className="text-2xl font-semibold mb-4 gradient-text">Quick Facts</h3>
 							<ul className="list-none space-y-3">
-								{["Based in Kolkata, WB, India", "B.Tech in Computer Science", "CGPA: 8.48"].map((fact, index) => (
+								{["Based in Dublin, Ireland", "MSc in Big Data Management & Analytics", "BSc Computer Science: 7.94 CGPA"].map((fact, index) => (
 									<motion.li
 										key={fact}
 										className="flex items-center space-x-2 text-gray-300"
@@ -84,7 +84,7 @@ const About = () => {
 					<ScrollAnimation>
 						<div className="flex justify-start space-x-4">
 							<a
-								href="/files/cv_pdf/Niladri_Chatterjee(CV).pdf"
+								href="/files/cv_pdf/Rohan_Handore_CV.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors"

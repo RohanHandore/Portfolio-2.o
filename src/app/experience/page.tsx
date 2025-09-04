@@ -2,8 +2,8 @@ import Experience from '@/pages/Experience';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Experience - Niladri Chatterjee',
-	description: 'Niladri Chatterjee\'s professional experience as a Software Developer, including internships and projects at various companies.',
+	title: 'Experience - Rohan Handore',
+	description: 'Rohan Handore\'s professional experience as a Software Development Engineer, including work at TechnoKraft Training and Solutions, eLuminous Pvt.Ltd., and open source contributions.',
 };
 
 export default function ExperiencePage() {

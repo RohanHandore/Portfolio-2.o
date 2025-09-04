@@ -58,7 +58,7 @@ const Home = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
 				>
-					Web Developer | Software Engineer | DevOps Engineer
+					I'm Engineer for everything
 				</motion.h1>
 
 				<motion.p
@@ -67,7 +67,7 @@ const Home = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8, delay: 0.2 }}
 				>
-					Hard-working developer with a flair for creating elegant solutions. Passionate about software architecture, automation, and design that actually works. 
+					Building tomorrow's digital universe, one algorithm at a time. Where code meets creativity, and innovation never sleeps. 
 				</motion.p>
 
 				<motion.div

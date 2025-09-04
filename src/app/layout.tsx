@@ -14,27 +14,27 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-	title: 'Niladri Chatterjee - Software Developer',
-	description: 'Niladri Chatterjee - Full Stack Developer specializing in MERN stack, React.js, Node.js, and modern web technologies. Expert in database development and web applications.',
-	keywords: 'Niladri Chatterjee, Niladri1, niladri1, Software Developer, Full Stack Developer, MERN Stack, Web Developer, React Developer, Next.js Expert, Database Developer, Frontend Specialist, Backend Developer, JavaScript Expert, TypeScript Developer, Node.js Developer, MongoDB Expert, SQL Developer',
-	authors: [{ name: 'Niladri Chatterjee' }],
-	creator: 'Niladri Chatterjee',
+	title: 'Rohan Handore - Web Designer | Developer | DevOps Engineer',
+	description: 'Rohan Handore - Web Designer, Developer, and DevOps Engineer specializing in JavaScript, Java, Python, cloud computing, and algorithmic trading. Currently pursuing MSc in Big Data Management and Analytics at Griffith College, Ireland.',
+	keywords: 'Rohan Handore, Web Designer, Developer, DevOps Engineer, JavaScript, Java, Python, Big Data Analytics, Cloud Computing, Algorithmic Trading, AWS, Google Cloud, Dublin Ireland, Software Development Engineer, MERN Stack, React.js, Node.js, MongoDB, SQL',
+	authors: [{ name: 'Rohan Handore' }],
+	creator: 'Rohan Handore',
 	manifest: '/manifest.json',
 	themeColor: '#000000',
 	viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
 	openGraph: {
 		type: 'website',
 		locale: 'en_US',
-		url: 'https://niladri1.vercel.app/',
-		title: 'Niladri Chatterjee - Full Stack Developer',
-		description: 'Full-stack developer specializing in MERN stack, React.js, Node.js, and modern web technologies.',
-		siteName: 'Niladri Chatterjee Portfolio',
+		url: 'https://rohanhandore.tech/',
+		title: 'Rohan Handore - Web Designer | Developer | DevOps Engineer',
+		description: 'Web Designer, Developer, and DevOps Engineer specializing in JavaScript, Java, Python, cloud computing, and algorithmic trading.',
+		siteName: 'Rohan Handore Portfolio',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Niladri Chatterjee - Full Stack Developer',
-		description: 'Full-stack developer specializing in MERN stack, React.js, Node.js, and modern web technologies.',
-		creator: '@niladri_dev',
+		title: 'Rohan Handore - Web Designer | Developer | DevOps Engineer',
+		description: 'Web Designer, Developer, and DevOps Engineer specializing in JavaScript, Java, Python, cloud computing, and algorithmic trading.',
+		creator: '@RohanHandore',
 	},
 	robots: {
 		index: true,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 			noimageindex: true,
 		},
 	},
-	metadataBase: new URL('https://niladri1.vercel.app'),
+	metadataBase: new URL('https://rohanhandore.tech'),
 	alternates: {
 		canonical: '/',
 	},

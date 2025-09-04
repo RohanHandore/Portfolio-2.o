@@ -29,24 +29,35 @@ const Contact = () => {
 		{
 			icon: <Mail className="w-5 h-5" />,
 			label: 'Email',
-			value: 'code.niladri@gmail.com',
-			link: 'mailto:code.niladri@gmail.com'
+			value: 'rohanhandore021@gmail.com',
+			link: 'mailto:rohanhandore021@gmail.com'
 		},
 		{
 			icon: <Phone className="w-5 h-5" />,
-			label: 'Phone',
-			value: '+916296554939',
-			link: 'tel:+916296554939'
+			label: 'Phone (Ireland)',
+			value: '+353 899435478',
+			link: 'tel:+353899435478'
+		},
+		{
+			icon: <Phone className="w-5 h-5" />,
+			label: 'Phone (India)',
+			value: '+91 8830949311',
+			link: 'tel:+918830949311'
 		},
 		{
 			icon: <MapPin className="w-5 h-5" />,
-			label: 'Location',
-			value: 'Kolkata, West Bengal, India'
+			label: 'Current Location',
+			value: 'Dublin, Ireland'
+		},
+		{
+			icon: <MapPin className="w-5 h-5" />,
+			label: 'Home Town',
+			value: 'Nashik, Maharashtra, India'
 		},
 		{
 			icon: <Clock className="w-5 h-5" />,
 			label: 'Time Zone',
-			value: 'IST (UTC+5:30)'
+			value: 'GMT (UTC+0) / IST (UTC+5:30)'
 		}
 	];
 
@@ -54,17 +65,17 @@ const Contact = () => {
 		{
 			icon: <Github className="w-5 h-5" />,
 			label: 'GitHub',
-			link: 'https://github.com/niladri-1'
+			link: 'https://github.com/RohanHandore'
 		},
 		{
 			icon: <Linkedin className="w-5 h-5" />,
 			label: 'LinkedIn',
-			link: 'https://linkedin.com/in/niladri1'
+			link: 'https://linkedin.com/in/rohan-handore-4786b3233'
 		},
 		{
 			icon: <MessageCircle className="w-5 h-5" />,
 			label: 'WhatsApp',
-			link: 'https://wa.me/+916296554939'
+			link: 'https://wa.me/+918830949311'
 		}
 	];
 

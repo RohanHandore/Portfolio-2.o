@@ -17,15 +17,15 @@ const Education = () => {
 			resultUrl: "/files/education_pdf/griffith_transcript.pdf",
 			coursework: [
 				"Big Data Technologies",
-				"OOPs",
-				"DBMS",
-				"AI",
-				"ML",
-				"OS",
-				"Networking",
+				"Data Analytics",
+				"Machine Learning",
+				"Cloud Computing",
+				"Database Management",
+				"Statistical Analysis",
+				"Data Visualization",
 			],
 			description:
-				"Currently pursuing a Master's in Big Data Management and Analytics with a strong focus on data-driven systems, cloud-based computing, and modern machine learning technologies. Developing a research thesis on optimizing latency in IoT through edge computing."
+				"Currently pursuing a Master's in Big Data Management and Analytics with a strong focus on data-driven systems, cloud-based computing, and modern machine learning technologies. Developing expertise in handling large-scale data processing and analytics."
 		},
 		{
 			school: "Institute of Science Poona's College of Computer Sciences",
@@ -45,6 +45,25 @@ const Education = () => {
 			],
 			description:
 				"Completed Bachelor's in Computer Science with a foundation in core computing concepts, Java development, and real-world software projects. Focused on backend architecture, automation, and application design principles."
+		},
+		{
+			school: "St Patrick Convent High School",
+			location: "Nashik, Maharashtra, India",
+			duration: "2018 - 2019",
+			degree: "Class 10th SSC",
+			grade: "Percentage: 81.80%",
+			image: "/education/school_img.jpg",
+			resultUrl: "/files/education_pdf/ssc_marksheet.pdf",
+			subjects: [
+				"Mathematics",
+				"Science",
+				"English",
+				"Social Studies",
+				"Hindi",
+				"Marathi"
+			],
+			description:
+				"Completed secondary education with strong academic performance, laying the foundation for higher studies in computer science and technology."
 		}
 	];
 

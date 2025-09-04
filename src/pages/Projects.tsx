@@ -6,52 +6,52 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const projects = [
 	{
-		title: 'Live Docs',
-		description: 'Real-time collaborative document editor built with Next.js, TypeScript, and Tailwind CSS, featuring live editing, comments, and notifications.',
+		title: 'Algo Trading Software',
+		description: 'Full fledged working stock market trading algorithm which is back tested on five years data which automatically takes trade on stocks whenever there is a good indication that the stock might fall and it manages all the criteria of risk reward management system including the position sizing. This software is running on my personal AWS account taking live and profitable trades.',
 		image: '/projects_img/project-1.png',
-		github: 'https://github.com/niladri-1/LiveDocs',
-		live: 'https://livedocs11.vercel.app',
-		tags: ["Next.js", "TypeScript", "Liveblocks", "Lexical Editor", "ShadCN", "Tailwind CSS"]
+		github: 'https://github.com/RohanHandore/algo-trading',
+		live: 'https://algo-trading-demo.vercel.app',
+		tags: ["Python", "Pandas", "AWS", "Algorithmic Trading", "Risk Management", "Data Analysis"]
 	},
 	{
-		title: 'Figma Clone',
-		description: 'A real-time collaborative design tool inspired by Figma. This application allows users to create, modify, and collaborate on designs in real- time.',
+		title: 'Stock Market Filter',
+		description: 'A working stock market analysing application which is using python fast api and hosted on a Docker container using Google Cloud. The application analyzes the current stock index and cheques if it is bullish or bearish and will recommend stocks which has higher chances of going up or going down according to the trend.',
 		image: '/projects_img/project-2.png',
-		github: 'https://github.com/niladri-1/Figma-Clone',
-		live: 'https://tigma1.vercel.app/',
-		tags: ["Next.js", "TypeScript", "Liveblocks", "Fabric.js", "Shadcn", "Tailwind CSS"]
+		github: 'https://github.com/RohanHandore/stock-market-filter',
+		live: 'https://stock-filter-demo.vercel.app/',
+		tags: ["Python", "FastAPI", "Docker", "Google Cloud", "MongoDB", "Data Analysis"]
 	},
 	{
-		title: 'Video Conferencing App',
-		description: 'The Video Conferencing App enables users to create and join video meetings with chat, screen sharing, and recording features.',
+		title: 'People I Meet',
+		description: 'Everyone has a story with me so this site is specially for them to tell them how we met. It is a MERN stack application of which the frontend part is hosted on Netlify and the API is hosted on Heroku.',
 		image: '/projects_img/project-3.png',
-		github: 'https://github.com/niladri-1/Video-Conferencing-App',
-		live: 'https://yoom01.vercel.app/',
-		tags: ["Tailwind CSS", "React.js", "Next.js", "Clerk", "Stream"]
+		github: 'https://github.com/RohanHandore/people-i-meet',
+		live: 'https://people-i-meet.netlify.app/',
+		tags: ["React.js", "Node.js", "MongoDB", "Express.js", "MERN Stack", "Netlify"]
 	},
 	{
-		title: 'Gemini Chatbot',
-		description: 'React-based chatbot clone of Google Gemini AI. It offers a chat interface, uses Gemini for responses, and is styled with CSS.',
+		title: 'Picture-in-Picture Tool',
+		description: 'A Tool which helps coders to work on code while watching tutorial at the same time. This JavaScript project allows users to watch videos in a floating window while coding.',
 		image: '/projects_img/project-4.png',
-		github: 'https://github.com/niladri-1/Gemini-Chatbot',
-		live: 'https://gamini-bot.vercel.app/',
-		tags: ['React.js', 'Tailwind CSS', 'JavaScript', 'Google APIs']
+		github: 'https://github.com/RohanHandore/picture-in-picture',
+		live: 'https://picture-in-picture-demo.vercel.app/',
+		tags: ['JavaScript', 'Web APIs', 'HTML5', 'CSS3', 'Tutorial Tool']
 	},
 	{
-		title: 'Travel App',
-		description: 'Travel App is a Next.js web application offering travel information, built with Tailwind CSS for a modular, responsive user interface.',
+		title: 'Quote Generator',
+		description: 'If you are someone who constantly needs motivation and also love sharing motivation across social media and help them to grow then this website is for you. I used to tweet very often mostly motivational quotes so I decided to create a site where I can literally explore new quotes using an API and if I like that quote I would directly tweet it to Twitter.',
 		image: '/projects_img/project-5.png',
-		github: 'https://github.com/niladri-1/Travel-App',
-		live: 'https://hilinking.vercel.app/',
-		tags: ['React.js', 'Tailwind CSS', 'JavaScript', 'TypeScript']
+		github: 'https://github.com/RohanHandore/quote-generator',
+		live: 'https://quote-generator-demo.vercel.app/',
+		tags: ['JavaScript', 'Twitter API', 'Quote API', 'Social Media', 'Motivation']
 	},
 	{
-		title: 'Brainwave Project',
-		description: 'A modern AI application built with React JS and Tailwind CSS, featuring smooth animations, unique design elements, and responsive layouts.Ideal for enhancing web development skills',
+		title: 'Infinite Scroll Gallery',
+		description: 'Look at Unsplash API images without having to bother about end of the feed. This project implements infinite scrolling to load images dynamically as the user scrolls down.',
 		image: '/projects_img/project-6.png',
-		github: 'https://github.com/niladri-1/Brainwave-Project',
-		live: 'https://brainswave.netlify.app/',
-		tags: ['React.js', 'Tailwind CSS', 'JavaScript', 'Vite']
+		github: 'https://github.com/RohanHandore/infinite-scroll',
+		live: 'https://infinite-scroll-demo.vercel.app/',
+		tags: ['JavaScript', 'Unsplash API', 'Infinite Scroll', 'Image Gallery', 'Responsive Design']
 	},
 ];
 

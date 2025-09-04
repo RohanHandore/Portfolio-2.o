@@ -6,55 +6,48 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const experiences = [
 	{
-		title: "Software Engineering Intern",
-		company: "Code Alpha",
-		location: "Remote",
-		period: "Jun 2024 - Aug2024",
-		type: "Internship",
-		image: "/experience/codeAlpha_page.jpg",
-		certificateUrl: "/files/experience_pdf/codeAlpha.pdf",
+		title: "Software Development Engineer",
+		company: "TechnoKraft Training and Solutions Pvt.Ltd.",
+		location: "India",
+		period: "Dec 2022 - Jan 2024",
+		type: "Full-time",
+		image: "/experience/technokraft_page.jpg",
+		certificateUrl: "/files/experience_pdf/technokraft.pdf",
 		description: [
-			"Optimized web application performance with JavaScript and React.js, achieving a 98% error-free rate",
-			"Implemented advanced features on a React.js platform, resulting in a 40% surge in user interaction"
+			"Designed, developed, and maintained software solutions in accordance with project requirements",
+			"Collaborated with cross-functional teams to ensure timely delivery of projects and adherence to quality standards",
+			"Conducted code reviews, debugging, and troubleshooting issues to ensure smooth functioning of applications",
+			"Participated in the analysis and design phases of software development projects, contributing valuable insights and ideas",
+			"Kept abreast of latest technologies and industry trends to enhance the overall efficiency and effectiveness of software development processes"
 		]
 	},
 	{
-		title: "Full Stack Development Intern ",
-		company: "Bharat Intern",
-		location: "Remote",
-		period: "Jun 2024 - Jul 2024",
+		title: "Software Dev Engineer Intern",
+		company: "eLuminous Pvt.Ltd. (Foreshadow Labs)",
+		location: "India",
+		period: "Sep 2022 - Nov 2022",
 		type: "Internship",
-		image: "/experience/bharatIntern_page.jpg",
-		certificateUrl: "/files/experience_pdf/bharatIntern.pdf",
+		image: "/experience/eluminous_page.jpg",
+		certificateUrl: "/files/experience_pdf/eluminous.pdf",
 		description: [
-			"Designed 3 websites with CSS, JavaScript, React.js, Node.js and MongoDB, resulting in a 30% increase in user engagement",
-			"Built a money tracker app using HTML, CSS, React.js, Node.js, and MongoDB, improving user financial tracking by 25%"
+			"Developed a production-level landing page from scratch using React, showcasing strong skills in frontend development and proficiency in JavaScript libraries and frameworks",
+			"Implemented responsive design principles across various devices, including mobile, tablets, and desktop",
+			"Managed the backend of an Android application, overseeing the parsing and processing of the app's data",
+			"Developed and implemented APIs to extract and process data from databases, resulting in the generation of meaningful statistics"
 		]
 	},
 	{
-		title: "Web Applications Intern",
-		company: "CodeClause",
+		title: "Open Source Contributor",
+		company: "Mermaid Js Pvt.Ltd.",
 		location: "Remote",
-		period: "Jun 2023 - Jul 2023",
-		type: "Internship",
-		image: "/experience/codeClause_page.jpg",
-		certificateUrl: "/files/experience_pdf/codeClause.pdf",
+		period: "Sep 2022",
+		type: "Open Source",
+		image: "/experience/mermaid_page.jpg",
+		certificateUrl: "/files/experience_pdf/mermaid.pdf",
 		description: [
-			"Engineered a real-time collaborative document editor using Next.js, TypeScript, and Liveblocks, reducing latency by 30%",
-			"Implemented and optimized a personal portfolio with Next.js and Tailwind CSS, improving performance by 40%"
-		]
-	},
-	{
-		title: "Junior Software Engineer",
-		company: "Oasis Infobyte",
-		location: "Remote",
-		period: "Jun 2023 - Jul 2023",
-		type: "Internship",
-		image: "/experience/oasisInfobyte_page.jpg",
-		certificateUrl: "/files/experience_pdf/oasisInfobyte.pdf",
-		description: [
-			"Engineered a real-time collaborative document editor using Next.js, TypeScript, and Liveblocks, reducing latency by 30%",
-			"Implemented and optimized a personal portfolio with Next.js and Tailwind CSS, improving performance by 40%"
+			"Refactored code to improve its time complexity by removing unnecessary code and optimizing the existing code",
+			"Contributed to open-source project development and maintenance",
+			"Collaborated with the development team to enhance project performance and code quality"
 		]
 	},
 ];
