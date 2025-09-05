@@ -14,17 +14,23 @@ const nextConfig = {
 	distDir: 'dist',
 	images: {
 		unoptimized: true,
-		domains: ['images.unsplash.com'],
-		remotePatterns: [
-			{
-				protocol: 'https',
-				hostname: '**',
-			},
-		],
-		formats: ['image/webp', 'image/avif'],
 	},
 	experimental: {
 		scrollRestoration: true,
+	},
+	// Optimize for faster builds
+	compiler: {
+		removeConsole: process.env.NODE_ENV === 'production',
+	},
+	// Reduce bundle size
+	webpack: (config, { isServer }) => {
+		if (!isServer) {
+			config.resolve.fallback = {
+				...config.resolve.fallback,
+				fs: false,
+			};
+		}
+		return config;
 	},
 };
 
