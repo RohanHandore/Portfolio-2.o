@@ -21,6 +21,13 @@ const nextConfig = {
 		}
 		return config;
 	},
+	// Disable server-side features that don't work with static export
+	experimental: {
+		esmExternals: false,
+	},
+	// Ensure proper asset prefix for GitHub Pages
+	assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio-2.o' : '',
+	basePath: process.env.NODE_ENV === 'production' ? '/Portfolio-2.o' : '',
 };
 
 module.exports = nextConfig;
