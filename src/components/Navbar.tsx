@@ -30,14 +30,16 @@ const Navbar = () => {
 			transition={{ duration: 0.5 }}
 		>
 			<div className="relative">
-				<div className="absolute inset-0 bg-black/50 backdrop-blur-xl" />
+				<div className="absolute inset-0 bg-black/30 backdrop-blur-xl border-b border-white/10" />
 
 				<div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-					<div className="flex h-16 items-center justify-between">
+					<div className="flex h-20 items-center justify-between">
 						{/* Logo */}
-						<Link href="/" className="flex items-center space-x-3">
-							<Code2 className="w-8 h-8 text-white" />
-							<span className="text-xl font-bold text-white">Rohan</span>
+						<Link href="/" className="flex items-center space-x-3 group">
+							<div className="p-2 rounded-xl bg-white/10 group-hover:bg-white/20 transition-colors">
+								<Code2 className="w-6 h-6 text-white" />
+							</div>
+							<span className="text-xl font-bold text-white group-hover:text-gray-200 transition-colors">Rohan</span>
 						</Link>
 
 						{/* Desktop Navigation */}

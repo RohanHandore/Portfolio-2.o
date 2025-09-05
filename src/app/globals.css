@@ -9,6 +9,7 @@
 body {
 	@apply bg-black text-gray-100;
 	overflow-x: hidden;
+	background: radial-gradient(ellipse at center, #0a0a1a 0%, #0f0f23 35%, #050510 100%);
 }
 
 .gradient-text {
@@ -16,7 +17,32 @@ body {
 }
 
 .nav-link {
-	@apply relative px-3 py-2 text-sm text-gray-400 hover:text-white transition-colors rounded-lg hover:bg-white/[0.05];
+	@apply relative px-4 py-2 text-sm text-gray-400 hover:text-white transition-all duration-300 rounded-xl hover:bg-white/10 backdrop-blur-sm border border-transparent hover:border-white/20;
+}
+
+/* Design System - Consistent Spacing & Effects */
+.card-glass {
+	@apply bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl;
+}
+
+.card-glass-hover {
+	@apply hover:bg-white/10 hover:border-white/20 hover:scale-105 transition-all duration-300;
+}
+
+.button-primary {
+	@apply px-6 py-3 bg-white/90 backdrop-blur-sm text-black rounded-2xl font-semibold hover:bg-white hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl;
+}
+
+.button-secondary {
+	@apply px-6 py-3 bg-white/10 backdrop-blur-md text-white rounded-2xl font-semibold hover:bg-white/20 hover:scale-105 transition-all duration-300 border border-white/20 hover:border-white/30;
+}
+
+.text-gradient {
+	@apply bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent;
+}
+
+.text-gradient-subtle {
+	@apply bg-gradient-to-r from-gray-200 to-gray-400 bg-clip-text text-transparent;
 }
 
 .canvas-container {
@@ -53,4 +79,195 @@ body {
 /* Custom cursor for copy button */
 .cursor-copy {
 	cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2'></path><rect x='8' y='2' width='8' height='4' rx='1' ry='1'></rect></svg>") 12 12, pointer;
+}
+
+/* Space and Galaxy Theme Styles */
+.space-background {
+	background: 
+		radial-gradient(ellipse at 20% 50%, rgba(60, 60, 100, 0.15) 0%, transparent 50%),
+		radial-gradient(ellipse at 80% 20%, rgba(80, 60, 100, 0.1) 0%, transparent 50%),
+		radial-gradient(ellipse at 40% 80%, rgba(40, 80, 120, 0.08) 0%, transparent 50%),
+		radial-gradient(ellipse at 0% 100%, rgba(100, 100, 120, 0.05) 0%, transparent 50%),
+		radial-gradient(ellipse at 80% 100%, rgba(60, 60, 100, 0.1) 0%, transparent 50%),
+		linear-gradient(135deg, #0a0a1a 0%, #0f0f23 25%, #0a0a1a 50%, #050510 100%);
+	animation: spaceShift 20s ease-in-out infinite;
+}
+
+@keyframes spaceShift {
+	0%, 100% { 
+		background-position: 0% 0%, 100% 0%, 0% 100%, 0% 100%, 100% 100%, 0% 0%;
+	}
+	50% { 
+		background-position: 100% 100%, 0% 100%, 100% 0%, 100% 0%, 0% 0%, 100% 100%;
+	}
+}
+
+/* Animated Stars */
+.stars-container {
+	overflow: hidden;
+}
+
+.stars {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.stars-1 {
+	background-image: 
+		radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+		radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+		radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+		radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+		radial-gradient(2px 2px at 160px 30px, #ddd, transparent);
+	background-repeat: repeat;
+	background-size: 200px 100px;
+	animation: sparkle 3s linear infinite;
+}
+
+.stars-2 {
+	background-image: 
+		radial-gradient(1px 1px at 50px 50px, #fff, transparent),
+		radial-gradient(1px 1px at 100px 25px, rgba(255,255,255,0.8), transparent),
+		radial-gradient(1px 1px at 25px 75px, #ddd, transparent),
+		radial-gradient(1px 1px at 75px 100px, rgba(255,255,255,0.6), transparent),
+		radial-gradient(1px 1px at 150px 50px, #eee, transparent);
+	background-repeat: repeat;
+	background-size: 200px 100px;
+	animation: sparkle 4s linear infinite reverse;
+}
+
+.stars-3 {
+	background-image: 
+		radial-gradient(1px 1px at 30px 20px, rgba(255,255,255,0.9), transparent),
+		radial-gradient(1px 1px at 80px 60px, #fff, transparent),
+		radial-gradient(1px 1px at 120px 10px, rgba(255,255,255,0.7), transparent),
+		radial-gradient(1px 1px at 180px 40px, #ddd, transparent),
+		radial-gradient(1px 1px at 10px 90px, rgba(255,255,255,0.8), transparent);
+	background-repeat: repeat;
+	background-size: 200px 100px;
+	animation: sparkle 5s linear infinite;
+}
+
+@keyframes sparkle {
+	from { transform: translateY(0px); }
+	to { transform: translateY(-100px); }
+}
+
+/* Nebula Effects */
+.nebula-container {
+	overflow: hidden;
+}
+
+.nebula {
+	position: absolute;
+	border-radius: 50%;
+	filter: blur(40px);
+	opacity: 0.6;
+	animation: nebulaFloat 15s ease-in-out infinite;
+}
+
+.nebula-1 {
+	width: 300px;
+	height: 300px;
+	background: radial-gradient(circle, rgba(60, 60, 100, 0.2) 0%, rgba(40, 40, 80, 0.1) 50%, transparent 70%);
+	top: 10%;
+	left: 10%;
+	animation-delay: 0s;
+}
+
+.nebula-2 {
+	width: 400px;
+	height: 400px;
+	background: radial-gradient(circle, rgba(80, 60, 100, 0.15) 0%, rgba(60, 40, 80, 0.08) 50%, transparent 70%);
+	top: 60%;
+	right: 10%;
+	animation-delay: 5s;
+}
+
+.nebula-3 {
+	width: 250px;
+	height: 250px;
+	background: radial-gradient(circle, rgba(40, 80, 120, 0.2) 0%, rgba(30, 60, 100, 0.1) 50%, transparent 70%);
+	bottom: 20%;
+	left: 30%;
+	animation-delay: 10s;
+}
+
+@keyframes nebulaFloat {
+	0%, 100% { 
+		transform: translate(0, 0) scale(1);
+		opacity: 0.6;
+	}
+	25% { 
+		transform: translate(30px, -20px) scale(1.1);
+		opacity: 0.8;
+	}
+	50% { 
+		transform: translate(-20px, 30px) scale(0.9);
+		opacity: 0.4;
+	}
+	75% { 
+		transform: translate(20px, 10px) scale(1.05);
+		opacity: 0.7;
+	}
+}
+
+/* Galaxy Spiral */
+.galaxy-spiral {
+	background: 
+		conic-gradient(from 0deg at 50% 50%, 
+			transparent 0deg, 
+			rgba(60, 60, 100, 0.05) 60deg, 
+			transparent 120deg,
+			rgba(80, 60, 100, 0.05) 180deg,
+			transparent 240deg,
+			rgba(40, 80, 120, 0.05) 300deg,
+			transparent 360deg
+		);
+	animation: galaxyRotate 30s linear infinite;
+	opacity: 0.2;
+}
+
+@keyframes galaxyRotate {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/* Enhanced Grid for Space Theme */
+.gradient-grid {
+	background-image:
+		linear-gradient(to right, rgba(60, 60, 100, 0.05) 1px, transparent 1px),
+		linear-gradient(to bottom, rgba(60, 60, 100, 0.05) 1px, transparent 1px);
+	background-size: 60px 60px;
+	mask-image: radial-gradient(circle at 50% 0%, white 20%, transparent 70%);
+	animation: gridPulse 8s ease-in-out infinite;
+}
+
+@keyframes gridPulse {
+	0%, 100% { opacity: 0.3; }
+	50% { opacity: 0.6; }
+}
+
+/* Enhanced Spotlight for Space Theme */
+.spotlight {
+	pointer-events: none;
+	position: fixed;
+	inset: 0;
+	z-index: 0;
+	--size: 600px;
+	--spotlight: radial-gradient(var(--size) var(--size) at center,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 1) 100%);
+	mask-image: var(--spotlight);
+	-webkit-mask-image: var(--spotlight);
+	background: radial-gradient(300px 300px at center,
+			rgba(60, 60, 100, 0.05),
+			rgba(80, 60, 100, 0.02),
+			transparent 100%);
 }
