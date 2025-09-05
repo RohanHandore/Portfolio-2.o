@@ -6,7 +6,9 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"export": "next build && next export",
+		"deploy": "npm run build && touch dist/.nojekyll && git add dist && git commit -m 'Deploy to GitHub Pages' && git subtree push --prefix dist origin gh-pages"
 	},
 	"dependencies": {
 		"@react-three/drei": "^9.99.0",
