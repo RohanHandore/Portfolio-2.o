@@ -20,8 +20,6 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Rohan Handore' }],
 	creator: 'Rohan Handore',
 	manifest: '/manifest.json',
-	themeColor: '#000000',
-	viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
 	openGraph: {
 		type: 'website',
 		locale: 'en_US',
@@ -53,6 +51,13 @@ export const metadata: Metadata = {
 	verification: {
 		google: '/googlea4a36904e14398c1.html',
 	},
+};
+
+export const viewport = {
+	width: 'device-width',
+	initialScale: 1,
+	maximumScale: 5,
+	themeColor: '#000000',
 };
 
 export default function RootLayout({
