@@ -13,7 +13,7 @@ const Education = () => {
 			duration: "2024 - 2025",
 			degree: "MSc in Big Data Management and Analytics",
 			grade: "CGPA: Pursuing",
-			image: "/education/college_img.jpg",
+			image: "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/education/college_img.jpg",
 			resultUrl: "/files/education_pdf/griffith_transcript.pdf",
 			coursework: [
 				"Big Data Technologies",
@@ -33,7 +33,7 @@ const Education = () => {
 			duration: "2020 - 2023",
 			degree: "BSc in Computer Science",
 			grade: "CGPA: 7.94 / 10",
-			image: "/education/school_img.jpg",
+			image: "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/education/school_img.jpg",
 			resultUrl: "/files/education_pdf/poona_degree.pdf",
 			subjects: [
 				"Java Programming",
@@ -52,7 +52,7 @@ const Education = () => {
 			duration: "2018 - 2019",
 			degree: "Class 10th SSC",
 			grade: "Percentage: 81.80%",
-			image: "/education/school_img.jpg",
+			image: "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/education/school_img.jpg",
 			resultUrl: "/files/education_pdf/ssc_marksheet.pdf",
 			subjects: [
 				"Mathematics",

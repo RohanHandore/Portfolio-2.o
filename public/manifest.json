@@ -9,13 +9,13 @@
 	"orientation": "portrait",
 	"icons": [
 		{
-			"src": "/nextjs.png",
+			"src": "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/nextjs.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "/nextjs.png",
+			"src": "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/nextjs.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any maskable"

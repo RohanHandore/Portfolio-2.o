@@ -56,13 +56,13 @@ const Kali = () => {
 							{/* Logo Section */}
 							<div className="flex items-center justify-center gap-0 mb-8">
 								<img
-									src="/profile/kali_logo.png"
+									src="https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/profile/kali_logo.png"
 									alt="Kali Linux Logo"
 									className="w-24 h-24 opacity-70"
 								/>
 								<Link className="w-5 h-5 text-white/60" />
 								<img
-									src="/profile/Virtualbox_logo.png"
+									src="https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/profile/Virtualbox_logo.png"
 									alt="VirtualBox Logo"
 									className="w-24 h-24 object-contain opacity-65"
 								/>

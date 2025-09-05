@@ -44,7 +44,7 @@ const About = () => {
 				<ScrollAnimation>
 					<div className="aspect-square overflow-hidden rounded-2xl">
 						<img
-							src="/profile/profile.jpg"
+							src="https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/profile/profile.jpg"
 							alt="Rohan Handore"
 							className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
 						/>

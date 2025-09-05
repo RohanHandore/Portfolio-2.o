@@ -11,7 +11,7 @@ const experiences = [
 		location: "India",
 		period: "Dec 2022 - Jan 2024",
 		type: "Full-time",
-		image: "/experience/technokraft_page.jpg",
+		image: "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/experience/bharatIntern_page.jpg",
 		certificateUrl: "/files/experience_pdf/technokraft.pdf",
 		description: [
 			"Designed, developed, and maintained software solutions in accordance with project requirements",
@@ -27,7 +27,7 @@ const experiences = [
 		location: "India",
 		period: "Sep 2022 - Nov 2022",
 		type: "Internship",
-		image: "/experience/eluminous_page.jpg",
+		image: "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/experience/codeAlpha_page.jpg",
 		certificateUrl: "/files/experience_pdf/eluminous.pdf",
 		description: [
 			"Developed a production-level landing page from scratch using React, showcasing strong skills in frontend development and proficiency in JavaScript libraries and frameworks",
@@ -42,7 +42,7 @@ const experiences = [
 		location: "Remote",
 		period: "Sep 2022",
 		type: "Open Source",
-		image: "/experience/mermaid_page.jpg",
+		image: "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/experience/codeClause_page.jpg",
 		certificateUrl: "/files/experience_pdf/mermaid.pdf",
 		description: [
 			"Refactored code to improve its time complexity by removing unnecessary code and optimizing the existing code",
