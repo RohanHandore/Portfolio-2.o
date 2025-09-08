@@ -33,7 +33,7 @@ const Education = () => {
 			duration: "2020 - 2023",
 			degree: "BSc in Computer Science",
 			grade: "CGPA: 7.94 / 10",
-			image: "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/education/school_img.jpg",
+			image: "https://intcent.unipune.ac.in/img/SPPU%20Photo12.jpg",
 			resultUrl: "https://drive.google.com/file/d/1H8b-CCGAPWrdvKPpc0ThcPyiNTG14wDv/view",
 			subjects: [
 				"Java Programming",
