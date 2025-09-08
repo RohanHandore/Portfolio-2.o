@@ -6,12 +6,12 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const certificates = [
 	{
-		title: "Full Stack Developer",
-		issuer: "Geekster",
-		date: "Recent",
+		title: "Fullstack In Web Development",
+		issuer: "Next Level Computech Solution's Pvt. Ltd.",
+		date: "6 Months Duration",
 		link: "https://drive.google.com/uc?export=download&id=16BSoCHuY3GSn8Rp3csiCjE4AbAwd-3b8",
-		description: "Comprehensive full-stack development certification covering frontend, backend, databases, and deployment technologies.",
-		skills: ["Full Stack", "Frontend", "Backend", "Database", "Deployment", "MERN Stack"]
+		description: "Successfully completed Fullstack Web Development course with Grade A+ and 87% performance. Comprehensive training covering frontend, backend, and full-stack technologies.",
+		skills: ["Full Stack", "Web Development", "Frontend", "Backend", "Grade A+", "87% Performance"]
 	},
 	{
 		title: "Typescript Programming",
