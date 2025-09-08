@@ -68,7 +68,7 @@ const About = () => {
 						<div className="pt-4">
 							<h3 className="text-2xl font-semibold mb-4 gradient-text">Quick Facts</h3>
 							<ul className="list-none space-y-3">
-								{["Based in Dublin, Ireland", "MSc in Big Data Management & Analytics", "BSc Computer Science: 7.94 CGPA"].map((fact, index) => (
+								{["Based in Dublin, Ireland", "MSc in Big Data Management & Analytics: First Class Honours", "BSc Computer Science: 7.94 CGPA"].map((fact, index) => (
 									<motion.li
 										key={fact}
 										className="flex items-center space-x-2 text-gray-300"

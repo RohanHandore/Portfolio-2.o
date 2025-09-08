@@ -12,7 +12,7 @@ const Education = () => {
 			location: "Dublin, Ireland",
 			duration: "2024 - 2025",
 			degree: "MSc in Big Data Management and Analytics",
-			grade: "CGPA: Pursuing",
+			grade: "First Class Honours",
 			image: "https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/education/college_img.jpg",
 			resultUrl: "/files/education_pdf/griffith_transcript.pdf",
 			coursework: [
@@ -25,7 +25,7 @@ const Education = () => {
 				"Data Visualization",
 			],
 			description:
-				"Currently pursuing a Master's in Big Data Management and Analytics with a strong focus on data-driven systems, cloud-based computing, and modern machine learning technologies. Developing expertise in handling large-scale data processing and analytics."
+				"Successfully completed Master's in Big Data Management and Analytics with First Class Honours. Developed expertise in data-driven systems, cloud-based computing, and modern machine learning technologies. Specialized in handling large-scale data processing and analytics."
 		},
 		{
 			school: "Institute of Science Poona's College of Computer Sciences",
