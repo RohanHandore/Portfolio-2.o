@@ -84,7 +84,7 @@ const About = () => {
 					<ScrollAnimation>
 						<div className="flex justify-start space-x-4">
 							<a
-								href="/files/cv_pdf/Rohan_Handore_CV.pdf"
+								href="https://drive.google.com/uc?export=download&id=1y1dAa3EW1E5sx8L3l3Ctm0HlQOYt0wPL"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors"
