@@ -102,61 +102,29 @@ body {
 	}
 }
 
-/* Animated Stars */
+/* Random Stars Container */
 .stars-container {
 	overflow: hidden;
 }
 
-.stars {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	display: block;
-}
-
-.stars-1 {
-	background-image: 
-		radial-gradient(2px 2px at 20px 30px, #eee, transparent),
-		radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
-		radial-gradient(1px 1px at 90px 40px, #fff, transparent),
-		radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
-		radial-gradient(2px 2px at 160px 30px, #ddd, transparent);
-	background-repeat: repeat;
-	background-size: 200px 100px;
-	animation: sparkle 3s linear infinite;
-}
-
-.stars-2 {
-	background-image: 
-		radial-gradient(1px 1px at 50px 50px, #fff, transparent),
-		radial-gradient(1px 1px at 100px 25px, rgba(255,255,255,0.8), transparent),
-		radial-gradient(1px 1px at 25px 75px, #ddd, transparent),
-		radial-gradient(1px 1px at 75px 100px, rgba(255,255,255,0.6), transparent),
-		radial-gradient(1px 1px at 150px 50px, #eee, transparent);
-	background-repeat: repeat;
-	background-size: 200px 100px;
-	animation: sparkle 4s linear infinite reverse;
-}
-
-.stars-3 {
-	background-image: 
-		radial-gradient(1px 1px at 30px 20px, rgba(255,255,255,0.9), transparent),
-		radial-gradient(1px 1px at 80px 60px, #fff, transparent),
-		radial-gradient(1px 1px at 120px 10px, rgba(255,255,255,0.7), transparent),
-		radial-gradient(1px 1px at 180px 40px, #ddd, transparent),
-		radial-gradient(1px 1px at 10px 90px, rgba(255,255,255,0.8), transparent);
-	background-repeat: repeat;
-	background-size: 200px 100px;
-	animation: sparkle 5s linear infinite;
+/* Individual Star Animation */
+.star {
+	pointer-events: none;
 }
 
 @keyframes sparkle {
-	from { transform: translateY(0px); }
-	to { transform: translateY(-100px); }
+	0% { 
+		opacity: 0.3;
+		transform: translateY(100vh) scale(1);
+	}
+	50% { 
+		opacity: 1;
+		transform: translateY(50vh) scale(1.1);
+	}
+	100% { 
+		opacity: 0.3;
+		transform: translateY(0) scale(1);
+	}
 }
 
 /* Nebula Effects */
