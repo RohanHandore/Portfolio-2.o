@@ -6,6 +6,14 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const certificates = [
 	{
+		title: "Full Stack Developer",
+		issuer: "Geekster",
+		date: "Recent",
+		link: "https://drive.google.com/uc?export=download&id=16BSoCHuY3GSn8Rp3csiCjE4AbAwd-3b8",
+		description: "Comprehensive full-stack development certification covering frontend, backend, databases, and deployment technologies.",
+		skills: ["Full Stack", "Frontend", "Backend", "Database", "Deployment", "MERN Stack"]
+	},
+	{
 		title: "Typescript Programming",
 		issuer: "Geekster",
 		date: "22th April 2025",
