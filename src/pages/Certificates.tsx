@@ -9,7 +9,7 @@ const certificates = [
 		title: "Fullstack In Web Development",
 		issuer: "Next Level Computech Solution's Pvt. Ltd.",
 		date: "6 Months Duration",
-		link: "https://drive.google.com/uc?export=download&id=16BSoCHuY3GSn8Rp3csiCjE4AbAwd-3b8",
+		link: "https://drive.google.com/file/d/16BSoCHuY3GSn8Rp3csiCjE4AbAwd-3b8/view",
 		description: "Successfully completed Fullstack Web Development course with Grade A+ and 87% performance. Comprehensive training covering frontend, backend, and full-stack technologies.",
 		skills: ["Full Stack", "Web Development", "Frontend", "Backend", "Grade A+", "87% Performance"]
 	},

@@ -78,7 +78,7 @@ const Home = () => {
 				>
 					<div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
 						<a
-							href="https://drive.google.com/uc?export=download&id=1y1dAa3EW1E5sx8L3l3Ctm0HlQOYt0wPL"
+							href="https://drive.google.com/file/d/1y1dAa3EW1E5sx8L3l3Ctm0HlQOYt0wPL/view"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-white/90 backdrop-blur-sm text-black rounded-2xl text-sm sm:text-base font-semibold hover:bg-white hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl"
