@@ -46,12 +46,60 @@ const projects = [
 		tags: ['JavaScript', 'Twitter API', 'Quote API', 'Social Media', 'Motivation']
 	},
 	{
-		title: 'Infinite Scroll Gallery',
-		description: 'Look at Unsplash API images without having to bother about end of the feed. This project implements infinite scrolling to load images dynamically as the user scrolls down.',
+		title: 'Infinite Scroll Image Gallery',
+		description: 'A frontend project that fetches and displays images from Unsplash API with infinite scroll for smooth browsing.',
 		image: 'https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/projects_img/project-6.png',
-		github: 'https://github.com/RohanHandore/infinite-scroll',
+		github: 'https://github.com/RohanHandore/InfiniteScroll',
 		live: 'https://infinite-scroll-demo.vercel.app/',
-		tags: ['JavaScript', 'Unsplash API', 'Infinite Scroll', 'Image Gallery', 'Responsive Design']
+		tags: ['JavaScript', 'Unsplash API', 'HTML', 'CSS', 'Infinite Scroll']
+	},
+	{
+		title: 'Desktop Cleaner Script',
+		description: 'A cross-platform automation tool that organizes files into categorized folders (Documents, Images, Videos, etc.) based on extensions.',
+		image: 'https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/projects_img/project-1.png',
+		github: 'https://github.com/RohanHandore/Desktop-Cleaner-Script',
+		live: '',
+		tags: ['Python', 'Bash', 'Windows CMD', 'Automation', 'File Organization']
+	},
+	{
+		title: 'JARVIS OpenAI Voice Assistant',
+		description: 'An AI-powered voice assistant inspired by Iron Man\'s J.A.R.V.I.S., using OpenAI\'s GPT model for natural conversations with real-time speech recognition and text-to-speech.',
+		image: 'https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/projects_img/project-2.png',
+		github: 'https://github.com/RohanHandore/JARVIS-OpenAI-Voice-Assistant',
+		live: '',
+		tags: ['Python', 'OpenAI API', 'gTTS', 'SpeechRecognition', 'Pygame', 'AI']
+	},
+	{
+		title: 'Serverless Password Manager',
+		description: 'A secure serverless application for managing encrypted passwords. Uses client-side encryption with AWS cloud storage for maximum security.',
+		image: 'https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/projects_img/project-3.png',
+		github: 'https://github.com/RohanHandore/serverless-password-manager',
+		live: '',
+		tags: ['Python', 'AWS DynamoDB', 'AWS KMS', 'Serverless Framework', 'Security']
+	},
+	{
+		title: 'Workout Tracker',
+		description: 'A simple web app to log and track workout routines, exercises, and progress.',
+		image: 'https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/projects_img/project-4.png',
+		github: 'https://github.com/RohanHandore/workout-tracker',
+		live: '',
+		tags: ['JavaScript', 'HTML', 'CSS', 'Web App', 'Fitness']
+	},
+	{
+		title: 'E-Cell Website – NIT Silchar',
+		description: 'Contributed to the official website of the Entrepreneurship Cell, NIT Silchar, helping students promote entrepreneurship through a modern React/Vite site.',
+		image: 'https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/projects_img/project-5.png',
+		github: 'https://github.com/RohanHandore/e-cell-website-22',
+		live: '',
+		tags: ['JavaScript', 'React', 'Vite', 'Open Source', 'Contribution']
+	},
+	{
+		title: 'DigestClub – Team Knowledge Platform',
+		description: 'Worked on an open-source platform that helps teams curate and share knowledge through a digest system.',
+		image: 'https://raw.githubusercontent.com/RohanHandore/Portfolio-2.o/refs/heads/main/public/projects_img/project-6.png',
+		github: 'https://github.com/RohanHandore/digestclub',
+		live: '',
+		tags: ['TypeScript', 'Node.js', 'Open Source', 'Knowledge Management']
 	},
 ];
 
@@ -87,11 +135,13 @@ const Projects = () => {
 										<Github className="w-4 h-4" />
 										<span>Code</span>
 									</a>
-									<a href={project.live} target="_blank" rel="noopener noreferrer"
-										className="flex items-center space-x-1 text-gray-300 hover:text-white transition-colors">
-										<ExternalLink className="w-4 h-4" />
-										<span>Live</span>
-									</a>
+									{project.live && (
+										<a href={project.live} target="_blank" rel="noopener noreferrer"
+											className="flex items-center space-x-1 text-gray-300 hover:text-white transition-colors">
+											<ExternalLink className="w-4 h-4" />
+											<span>Live</span>
+										</a>
+									)}
 								</div>
 							</div>
 						</div>
