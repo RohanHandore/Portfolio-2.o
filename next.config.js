@@ -25,6 +25,8 @@ const nextConfig = {
 	experimental: {
 		esmExternals: false,
 	},
+	// Disable middleware for static export
+	skipTrailingSlashRedirect: true,
 	// Ensure proper asset prefix for GitHub Pages
 	assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio-2.o' : '',
 	basePath: process.env.NODE_ENV === 'production' ? '/Portfolio-2.o' : '',
