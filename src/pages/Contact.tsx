@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Github, Linkedin, MessageCircle, Clock, Send, MessageSquare } from 'lucide-react';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 	const [formData, setFormData] = useState({
@@ -18,11 +19,46 @@ const Contact = () => {
 	const handleSubmit = async (e: React.FormEvent) => {
 		e.preventDefault();
 		setIsSubmitting(true);
+		setSubmitStatus('idle');
 
-		// Simulate form submission
-		await new Promise(resolve => setTimeout(resolve, 1000));
-		setSubmitStatus('success');
-		setIsSubmitting(false);
+		try {
+			// EmailJS configuration with your actual keys
+			const serviceId = 'service_g3ep51n'; // Your actual service ID
+			const templateId = 'template_3elsi69'; // Your actual template ID
+			const publicKey = '2_8uMrBuH0mkkl-cZ'; // Your public key
+
+			console.log('Sending email with:', { serviceId, templateId, publicKey });
+
+			// Send email using EmailJS
+			const result = await emailjs.send(
+				serviceId,
+				templateId,
+				{
+					from_name: formData.name,
+					from_email: formData.email,
+					subject: formData.subject,
+					message: formData.message,
+					to_email: 'rohanhandore021@gmail.com', // Your email
+				},
+				publicKey
+			);
+
+			console.log('Email sent successfully:', result);
+			setSubmitStatus('success');
+			
+			// Reset form
+			setFormData({
+				name: '',
+				email: '',
+				subject: '',
+				message: ''
+			});
+		} catch (error) {
+			console.error('Error sending email:', error);
+			setSubmitStatus('error');
+		} finally {
+			setIsSubmitting(false);
+		}
 	};
 
 	const contactInfo = [
@@ -277,6 +313,16 @@ const Contact = () => {
 									className="text-green-400 text-center text-sm sm:text-base"
 								>
 									Message sent successfully! I'll get back to you soon.
+								</motion.p>
+							)}
+							
+							{submitStatus === 'error' && (
+								<motion.p
+									initial={{ opacity: 0, y: 10 }}
+									animate={{ opacity: 1, y: 0 }}
+									className="text-red-400 text-center text-sm sm:text-base"
+								>
+									Failed to send message. Please try again or contact me directly.
 								</motion.p>
 							)}
 						</form>

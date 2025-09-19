@@ -11,6 +11,7 @@
 		"deploy": "npm run build && touch dist/.nojekyll && git add dist && git commit -m 'Deploy to GitHub Pages' && git subtree push --prefix dist origin gh-pages"
 	},
 	"dependencies": {
+		"@emailjs/browser": "^4.4.1",
 		"@react-three/drei": "^9.99.0",
 		"@react-three/fiber": "^8.15.16",
 		"@vercel/analytics": "^1.2.0",
